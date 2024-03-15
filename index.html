@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Towers of Hanoi</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://www.stemlittleexplorers.com/wp-content/uploads/2020/06/Tower-of-Hanoi-Tower-of-Brahma-or-Lucas-Tower.jpg"
+        alt="Towers of hanoi" />
+      <h1>Towers of Hanoi</h1>
+      <h3>Instructions:</h3>
+      <ol>
+        <li>Open your console (developers tool).</li>
+        <li>Your beginning board has 3 pegs with 5 discs on the first peg.</li>
+        <li>
+          The goal of the game is to move around the discs on the pegs until you
+          get all 5 discs onto another peg, in the order of 5, 4, 3, 2, 1.
+        </li>
+      </ol>
+      <h3>The Rules</h3>
+      <ol>
+        <li>Only one disc can be moved at a time.</li>
+        <li>A larger disc cannot go on top of a smaller disc.</li>
+      </ol>
+      <h3>Controls</h3>
+      <ul>
+        <li>
+          In the console type moveDiscs(_,_) to move around your desired discs
+          to its spot.
+          <ul>
+            <li>
+              Ex. moveDisc(1,3) will move the first disc from peg 1 to peg 3.
+            </li>
+          </ul>
+        </li>
+        <li>
+          You are able to create a new board with more pegs or more discs if you
+          more of a challemge. Use boardObj.createBoard(_,_) with your number of
+          egs first and number of discs last.
+        </li>
+        <li>
+          boardObj.resetBoard() will reset your board back to the initial
+          set-up.
+        </li>
+      </ul>
+      <script src="main.js"></script>
+    </div>
+  </body>
+</html>

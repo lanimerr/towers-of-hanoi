@@ -1,0 +1,29 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1,
+h3,
+ol,
+ul {
+  margin-bottom: 15px;
+  padding-right: 20px;
+  list-style-position: inside;
+}
+
+ol,
+ul {
+  margin-right: 20px;
+}
+
+ol li,
+ul li {
+  margin-bottom: 5px;
+}
+
+.image {
+  width: 100px;
+  height: 60px;
+}
